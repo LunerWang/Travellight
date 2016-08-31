@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="horizontal" android:layout_width="match_parent"
+android:weightSum="5"
+android:layout_height="120dp">
+<ImageButton
+    android:scaleType="fitCenter"
+    android:src="@mipmap/rest_1"
+    android:layout_weight="2"
+    android:layout_width="0dp"
+    android:layout_height="match_parent" />
+<LinearLayout
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="10dp"
+    android:layout_weight="3"
+    android:layout_width="0dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/name"
+        android:text="云顶大酒店"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="4"
+            android:text="距您0.1公里"
+            android:maxLines="2"
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="#03dcd5d5"
+            android:textColor="#405cba"
+            android:padding="3dp"
+            android:text="导航"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:layout_weight="1"
+        android:text="135元/天"
+        android:textStyle="bold"
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="19条评价"
+            android:layout_weight="1"
+            android:id="@+id/appraise"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="96%满意度"
+            android:layout_weight="1"
+            android:id="@+id/satisfaction"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>

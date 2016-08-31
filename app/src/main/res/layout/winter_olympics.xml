@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:fillViewport="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <ImageView
+            android:src="@drawable/df"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/imageView" />
+        <TextView
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="崇礼——2022年冬奥会举办地"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/textView"
+            android:layout_below="@+id/imageView"
+            android:layout_alignRight="@+id/radioButton6"
+            android:layout_alignEnd="@+id/radioButton6" />
+        <TextView
+            android:text="     2015年7月31日，国际奥委会确定2022年冬奥会的最终举办城市为北京和张家口。张家口市崇礼县冬季雪量大、雪期长、雪质好，在坡向、坡度、垂直落差、空间体量以及温度、气候等方面，非常适合冬季竞技体育项目的开展。国家体育总局、中国滑雪协会专家对其气候、山形地貌、地理位置、生态环境等因素进行全方位考察和综合评估后，认为崇礼是“华北地区理想的滑雪区域”。崇礼县也因此被选为2022年冬奥会雪上项目的承办地。"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/textView" />
+        <TextView
+            android:layout_below="@+id/textView2"
+            android:text="     按照申冬奥规划，崇礼将承办2022年北京冬奥会除高山滑雪之外的大部分雪上项目。正是凭借着优良的自然条件、优质的雪场条件、较强的交通运输能力、日臻完善的配套设施，崇礼区作为2022年冬季奥运会申办候选城市雪上项目的承办地，正迎来新的发展契机。"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/textView3" />
+
+        <ImageView
+            android:src="@drawable/dg2"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageView2"
+            android:layout_below="@+id/textView3" />
+        <TextView
+            android:gravity="center"
+            android:textSize="18dp"
+            android:text="滑雪场"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_toRightOf="@+id/imageView2"
+            android:layout_toEndOf="@+id/imageView2"
+            android:id="@+id/textView4" />
+
+        <ImageButton
+            android:background="@drawable/db"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_below="@id/imageView2"
+            android:id="@+id/imageButton" />
+
+        <ImageButton
+            android:background="@drawable/dc"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageButton2"
+            android:layout_alignTop="@+id/imageButton"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="万龙滑雪场"
+            android:id="@+id/radioButton"
+            android:layout_above="@+id/imageButton3"
+            android:layout_alignRight="@+id/textView4"
+            android:layout_alignEnd="@+id/textView4" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="翠云山滑雪场"
+            android:id="@+id/radioButton2"
+            android:layout_below="@+id/imageButton2"
+            android:layout_alignLeft="@+id/imageButton2"
+            android:layout_alignStart="@+id/imageButton2" />
+        <ImageButton
+            android:background="@drawable/ca1"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_below="@id/radioButton"
+            android:id="@+id/imageButton8" />
+        <ImageButton
+            android:background="@drawable/de"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/radioButton2"
+            android:layout_alignLeft="@+id/radioButton2"
+            android:layout_alignStart="@+id/radioButton2"
+            android:id="@+id/imageButton3" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="多乐美滑雪场"
+            android:id="@+id/radioButton3"
+            android:layout_below="@+id/imageButton8"
+            android:layout_alignLeft="@+id/radioButton"
+            android:layout_alignStart="@+id/radioButton" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="长城岭滑雪场"
+            android:id="@+id/radioButton4"
+            android:layout_below="@+id/imageButton3"
+            android:layout_alignLeft="@+id/imageButton3"
+            android:layout_alignStart="@+id/imageButton3" />
+        <ImageView
+            android:id="@+id/imageView3"
+            android:src="@drawable/dg1"
+            android:layout_below="@id/radioButton3"
+            android:layout_width="50dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:gravity="center"
+            android:textSize="18dp"
+            android:text="奥运项目"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/imageView3"
+            android:layout_alignRight="@+id/imageButton"
+            android:layout_alignEnd="@+id/imageButton"
+            android:id="@+id/textView5"
+            android:layout_alignLeft="@+id/radioButton3"
+            android:layout_alignStart="@+id/radioButton3" />
+        <ImageButton
+            android:background="@drawable/dk"
+            android:id="@+id/imageButton4"
+            android:layout_below="@id/imageView3"
+            android:layout_width="150dp"
+            android:layout_height="120dp" />
+
+        <ImageButton
+            android:background="@drawable/di"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageButton5"
+            android:layout_alignTop="@+id/imageButton4"
+            android:layout_alignLeft="@+id/radioButton4"
+            android:layout_alignStart="@+id/radioButton4" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自由式滑雪"
+            android:id="@+id/radioButton5"
+            android:layout_below="@+id/imageButton4"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_alignStart="@+id/textView5" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="越野滑雪"
+            android:id="@+id/radioButton6"
+            android:layout_below="@+id/imageButton5"
+            android:layout_alignRight="@+id/radioButton4"
+            android:layout_alignEnd="@+id/radioButton4" />
+
+        <ImageButton
+            android:background="@drawable/dh"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageButton6"
+            android:layout_below="@+id/radioButton5" />
+
+        <ImageButton
+            android:background="@drawable/dj"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageButton7"
+            android:layout_below="@+id/radioButton6"
+            android:layout_alignLeft="@+id/imageButton5"
+            android:layout_alignStart="@+id/imageButton5" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跳台滑雪"
+            android:id="@+id/radioButton7"
+            android:layout_below="@+id/imageButton6"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/radioButton5"
+            android:layout_alignStart="@+id/radioButton5" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="单板滑雪"
+            android:id="@+id/radioButton8"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/radioButton6"
+            android:layout_alignStart="@+id/radioButton6" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

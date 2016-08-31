@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="food_type">
+        <item>全部分类</item>
+        <item>火锅</item>
+        <item>自助餐</item>
+        <item>清真菜</item>
+        <item>其他中餐</item>
+    </string-array>
+    <string-array name="food_sort">
+        <item>默认排序</item>
+        <item>按距离排序</item>
+        <item>按价格排序</item>
+        <item>按好评率排序</item>
+    </string-array>
+    <string-array name="food_filtrate">
+        <item>筛选</item>
+    </string-array>
+</resources>
